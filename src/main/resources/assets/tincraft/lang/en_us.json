@@ -1,0 +1,13 @@
+{
+  "itemGroup.tincraft": "Example Mod Tab",
+  "block.tincraft.example_block": "Example Block",
+  "item.tincraft.example_item": "Example Item",
+
+  "tincraft.configuration.title": "TinCraft Configs",
+  "tincraft.configuration.section.tincraft.common.toml": "TinCraft Configs",
+  "tincraft.configuration.section.tincraft.common.toml.title": "TinCraft Configs",
+  "tincraft.configuration.items": "Item List",
+  "tincraft.configuration.logDirtBlock": "Log Dirt Block",
+  "tincraft.configuration.magicNumberIntroduction": "Magic Number Text",
+  "tincraft.configuration.magicNumber": "Magic Number"
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "block/cube",
+  "parent": "minecraft:block/cube_all",
   "textures": {
     "all": "tincraft:block/tin_ore"
   }

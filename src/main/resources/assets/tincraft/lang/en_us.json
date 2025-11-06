@@ -1,8 +1,11 @@
 {
-
-
+  "tincraft.configuration.enable_tin_block_recipe": "Enable Tin Block Recipe",
+  "tincraft.configuration.enable_tin_block_recipe.tooltip": "If disabled, the Tin Block crafting recipe will not appear.",
   "item.tincraft.tin_ingot": "Tin Ingot",
   "block.tincraft.tin_block": "Block of Tin",
   "block.tincraft.tin_ore": "Tin Ore"
 
 }
+
+
+

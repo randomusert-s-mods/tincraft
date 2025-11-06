@@ -1,6 +1,6 @@
 {
-  "parent": "block/cube",
+  "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": " tincraft:block/tin_block"
+    "all": "tincraft:block/tin_block"
   }
 }

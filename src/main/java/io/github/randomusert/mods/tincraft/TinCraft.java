@@ -2,6 +2,15 @@ package io.github.randomusert.mods.tincraft;
 
 import io.github.randomusert.mods.tincraft.block.TinBlock;
 import io.github.randomusert.mods.tincraft.config.Config;
+import io.github.randomusert.mods.tincraft.item.ItemTin;
+import net.minecraft.data.recipes.RecipeCategory;
+import net.minecraft.data.recipes.ShapedRecipeBuilder;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.*;
+import net.minecraft.world.item.crafting.CraftingBookCategory;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.crafting.ShapedRecipe;
+import net.minecraft.world.item.crafting.ShapedRecipePattern;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -10,10 +19,6 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -34,6 +39,10 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import io.github.randomusert.mods.tincraft.config.Config;
 
 
+import java.util.List;
+import java.util.Map;
+
+import static io.github.randomusert.mods.tincraft.item.ItemTin.TIN_INGOT;
 import static io.github.randomusert.mods.tincraft.item.ItemTin.TIN_ITEMS;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file

@@ -27,7 +27,7 @@ modId="tincraft" #mandatory
 version="0.1" #mandatory
 
 # A display name for the mod
-displayName="tinCraft" #mandatory
+displayName="tincraft" #mandatory
 
 # A URL to query for updates for this mod. See the JSON update specification https://docs.neoforged.net/docs/misc/updatechecker/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional

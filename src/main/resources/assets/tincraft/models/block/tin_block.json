@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "all": " tincraft:block/tin_block"
+  }
+}

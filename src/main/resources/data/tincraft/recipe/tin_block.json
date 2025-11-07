@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "conditions": [
-    { "type": "neoforge:config", "modid": "tincraft", "key": "enable_tin_block_recipe" }
+    { "id": "neoforge:config", "modid": "tincraft", "key": "enable_tin_block_recipe" }
   ],
   "pattern": [
     "XXX",
@@ -12,6 +12,6 @@
     "X": { "item": "tincraft:tin_ingot" }
   },
   "result": {
-    "item": "tincraft:tin_block"
+    "id": "tincraft:tin_block"
   }
 }

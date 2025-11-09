@@ -1,5 +1,6 @@
 package io.github.randomusert.mods.tincraft;
 
+import io.github.randomusert.mods.tincraft.api.helper.LogHelper;
 import io.github.randomusert.mods.tincraft.block.TinBlock;
 import io.github.randomusert.mods.tincraft.config.Config;
 import io.github.randomusert.mods.tincraft.item.TincraftCreativeModeTabs;
@@ -42,11 +43,11 @@ public class TinCraft {
 
     private void commonSetup(FMLCommonSetupEvent event) {
         // Some common setup code
-        LOGGER.info("loading tincraft client side");
+        LogHelper.LogInfo("Tincraft loading common");
     }
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
         // Do something when the server starts
-        LOGGER.info("loading tincraft on server side");
+        LogHelper.LogInfo("loading tincraft on server side");
     }
 }

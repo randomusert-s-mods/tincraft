@@ -11,11 +11,5 @@ import net.neoforged.neoforge.common.ModConfigSpec;
 public class Config {
     private static final ModConfigSpec.Builder BUILDER = new ModConfigSpec.Builder();
 
-
-
-    public static final ModConfigSpec.BooleanValue ENABLE_TIN_BLOCK_RECIPE = BUILDER
-            .comment("Enable recipes for items")
-            .define("enable_tin_block_recipe", true);
-
     static final public ModConfigSpec SPEC = BUILDER.build();
 }

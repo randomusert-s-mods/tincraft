@@ -11,3 +11,7 @@ Welcome to TinCraft a mod about automation and crafting.
 
 # mod developers
 coming soon!!!!!
+
+# avaidable on
+curseforge: https://www.curseforge.com/minecraft/mc-mods/tincraft
+modrinth: https://modrinth.com/mod/tincraft

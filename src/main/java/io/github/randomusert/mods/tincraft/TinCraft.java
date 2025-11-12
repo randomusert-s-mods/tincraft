@@ -1,10 +1,9 @@
 package io.github.randomusert.mods.tincraft;
 
 import io.github.randomusert.mods.tincraft.api.helper.LogHelper;
-import io.github.randomusert.mods.tincraft.block.TinBlock;
+import io.github.randomusert.mods.tincraft.block.ModBlocks;
 import io.github.randomusert.mods.tincraft.config.Config;
 import io.github.randomusert.mods.tincraft.item.TincraftCreativeModeTabs;
-import net.minecraft.world.item.*;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 import net.neoforged.bus.api.IEventBus;
@@ -15,11 +14,8 @@ import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
-import java.util.List;
-import java.util.Map;
-import static io.github.randomusert.mods.tincraft.item.ItemTin.TIN_INGOT;
-import static io.github.randomusert.mods.tincraft.item.ItemTin.TIN_ITEMS;
-import io.github.randomusert.mods.tincraft.api.TinCraftApi;
+
+import static io.github.randomusert.mods.tincraft.item.ModItems.TIN_ITEMS;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(TinCraft.MODID)
@@ -34,7 +30,7 @@ public class TinCraft {
     public TinCraft(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
-        TinBlock.TINBLOCKS.register(modEventBus);
+        ModBlocks.TINBLOCKS.register(modEventBus);
         TIN_ITEMS.register(modEventBus);
         TincraftCreativeModeTabs.register(modEventBus);
         NeoForge.EVENT_BUS.register(this);

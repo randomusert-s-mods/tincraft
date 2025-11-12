@@ -8,7 +8,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-public class TinBlock {
+public class ModBlocks {
 
     public static final DeferredRegister.Blocks TINBLOCKS = DeferredRegister.createBlocks(TinCraft.MODID);
 
@@ -26,4 +26,6 @@ public class TinBlock {
                     .sound(SoundType.STONE)
                     .explosionResistance(0.1f)
                     .requiresCorrectToolForDrops()));
+
+
 }

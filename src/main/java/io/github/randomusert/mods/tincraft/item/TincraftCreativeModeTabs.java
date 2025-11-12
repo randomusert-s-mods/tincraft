@@ -1,7 +1,7 @@
 package io.github.randomusert.mods.tincraft.item;
 
 import io.github.randomusert.mods.tincraft.TinCraft;
-import io.github.randomusert.mods.tincraft.block.TinBlock;
+import io.github.randomusert.mods.tincraft.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -16,12 +16,12 @@ public class TincraftCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TinCraft.MODID);
 
     public static final Supplier<CreativeModeTab> TINCRAFT_MAIN_TAB = CREATIVE_MODE_TAB.register("main_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ItemTin.TIN_INGOT.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.TIN_INGOT.get()))
                     .title(Component.translatable("creativetab.tincraft.main"))
                     .displayItems((itemDisplayParameter, output) -> {
-                        output.accept(ItemTin.TIN_INGOT);
-                        output.accept(TinBlock.TIN_BLOCK);
-                        output.accept(TinBlock.TIN_ORE);
+                        output.accept(ModItems.TIN_INGOT);
+                        output.accept(ModBlocks.TIN_BLOCK);
+                        output.accept(ModBlocks.TIN_ORE);
                     }).build());
 
     public static void register(IEventBus eventBus) {

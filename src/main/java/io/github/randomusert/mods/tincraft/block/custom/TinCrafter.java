@@ -25,6 +25,6 @@ public class TinCrafter extends BaseBlockEntity {
 
     @Override
     public @Nullable BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-        return new TinCrafter(pos, state);
+        return  new TinCrafter(pos, state);
     }
 }

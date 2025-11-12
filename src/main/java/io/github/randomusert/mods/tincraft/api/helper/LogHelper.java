@@ -2,9 +2,11 @@ package io.github.randomusert.mods.tincraft.api.helper;
 
 import com.mojang.logging.LogUtils;
 import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class LogHelper {
-    public static final Logger LOGGER = LogUtils.getLogger();
+    private static final String NAME = "tincraft";
+    public static final Logger LOGGER = LoggerFactory.getLogger(NAME);
 
     public static void LogInfo(String msg) {
         LOGGER.info(msg);

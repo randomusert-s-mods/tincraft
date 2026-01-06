@@ -1,0 +1,7 @@
+// 1.21.1	2026-01-06T18:05:13.1636454	Block States: tincraft
+b3db7a8173dfb677be959eeb8fc1e4db96a39a9f assets/tincraft/blockstates/tin_block.json
+81512e340e037686ec3c639568a7d3d1bc4951e5 assets/tincraft/blockstates/tin_ore.json
+0265035db5996f0fd72706274fd286dfe52210f8 assets/tincraft/models/block/tin_block.json
+a03b857068c5deb745e809d08e57c4a745b58cd0 assets/tincraft/models/block/tin_ore.json
+dbddb6b1b901b97ddb7b4d695466b810376ee56f assets/tincraft/models/item/tin_block.json
+cd2390f73774e3071beb0525408dd4fdee3032bc assets/tincraft/models/item/tin_ore.json

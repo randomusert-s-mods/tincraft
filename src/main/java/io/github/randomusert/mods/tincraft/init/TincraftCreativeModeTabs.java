@@ -1,7 +1,6 @@
-package io.github.randomusert.mods.tincraft.item;
+package io.github.randomusert.mods.tincraft.init;
 
 import io.github.randomusert.mods.tincraft.TinCraft;
-import io.github.randomusert.mods.tincraft.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;

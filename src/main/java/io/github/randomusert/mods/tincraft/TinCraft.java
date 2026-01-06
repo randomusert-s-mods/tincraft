@@ -1,9 +1,9 @@
 package io.github.randomusert.mods.tincraft;
 
-import io.github.randomusert.mods.tincraft.api.helper.LogHelper;
-import io.github.randomusert.mods.tincraft.block.ModBlocks;
+import io.github.randomusert.mods.tincraft.helper.LogHelper;
+import io.github.randomusert.mods.tincraft.init.ModBlocks;
 import io.github.randomusert.mods.tincraft.config.Config;
-import io.github.randomusert.mods.tincraft.item.TincraftCreativeModeTabs;
+import io.github.randomusert.mods.tincraft.init.TincraftCreativeModeTabs;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 import net.neoforged.bus.api.IEventBus;
@@ -15,7 +15,8 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
-import static io.github.randomusert.mods.tincraft.item.ModItems.TIN_ITEMS;
+import static io.github.randomusert.mods.tincraft.init.ModItems.ITEMS;
+
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(TinCraft.MODID)
@@ -30,8 +31,8 @@ public class TinCraft {
     public TinCraft(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
-        ModBlocks.TINBLOCKS.register(modEventBus);
-        TIN_ITEMS.register(modEventBus);
+        ModBlocks.BLOCKS.register(modEventBus);
+        ITEMS.register(modEventBus);
         TincraftCreativeModeTabs.register(modEventBus);
         NeoForge.EVENT_BUS.register(this);
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);

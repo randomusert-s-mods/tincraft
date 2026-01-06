@@ -1,4 +1,4 @@
-package io.github.randomusert.mods.tincraft.api.helper;
+package io.github.randomusert.mods.tincraft.helper;
 
 import com.mojang.logging.LogUtils;
 import org.slf4j.Logger;

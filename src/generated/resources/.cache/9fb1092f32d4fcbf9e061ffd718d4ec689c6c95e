@@ -1,5 +1,7 @@
-// 1.21.1	2026-01-06T18:12:12.3644337	Recipes
+// 1.21.1	2026-01-06T19:22:17.7870613	Recipes
+90b0f4f0d89a60626622e82e250ba4df81b370a7 data/minecraft/advancement/recipes/misc/tin_block_to_tin_ingot.json
+42b94607c349e92ddb5e1942cb0d84e9238870a7 data/minecraft/advancement/recipes/misc/tin_ore_to_tin_ingot.json
+8d9740a4234104f50ebc61c7965c7762133d3e4b data/minecraft/recipe/tin_block_to_tin_ingot.json
+dab6fdaf430a4c8f618a5c56913e9e80d6b8f710 data/minecraft/recipe/tin_ore_to_tin_ingot.json
 a5e8ef8c8960c94a152a14410aa4333e2be44791 data/tincraft/advancement/recipes/misc/tin_block.json
-0b8cb905ad8e96bca1f83beadfe6e685bd63d729 data/tincraft/advancement/recipes/misc/tin_ingot.json
 4f363dceb5dc1f00505cb432572b8b13408a24b5 data/tincraft/recipe/tin_block.json
-8d9740a4234104f50ebc61c7965c7762133d3e4b data/tincraft/recipe/tin_ingot.json

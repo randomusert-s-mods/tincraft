@@ -25,7 +25,7 @@ public class TinCraftClient {
 
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
-        LogHelper.LogInfo("[tincraft]: tincraft client loading... please wait");
+        LogHelper.LogInfo("tincraft client loading... please wait");
 
     }
 }

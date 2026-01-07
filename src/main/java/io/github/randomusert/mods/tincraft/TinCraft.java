@@ -1,6 +1,7 @@
 package io.github.randomusert.mods.tincraft;
 
 import io.github.randomusert.mods.tincraft.helper.LogHelper;
+import io.github.randomusert.mods.tincraft.init.ModBlockEntities;
 import io.github.randomusert.mods.tincraft.init.ModBlocks;
 import io.github.randomusert.mods.tincraft.config.Config;
 import io.github.randomusert.mods.tincraft.init.TincraftCreativeModeTabs;
@@ -32,9 +33,14 @@ public class TinCraft {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
         ModBlocks.BLOCKS.register(modEventBus);
+
         ITEMS.register(modEventBus);
+
+        ModBlockEntities.BLOCK_ENTITIES.register(modEventBus);
         TincraftCreativeModeTabs.register(modEventBus);
+
         NeoForge.EVENT_BUS.register(this);
+
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 

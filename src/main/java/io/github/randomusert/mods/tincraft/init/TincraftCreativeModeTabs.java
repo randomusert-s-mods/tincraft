@@ -21,6 +21,7 @@ public class TincraftCreativeModeTabs {
                         output.accept(ModItems.TIN_INGOT);
                         output.accept(ModBlocks.TIN_BLOCK);
                         output.accept(ModBlocks.TIN_ORE);
+                        output.accept(ModBlocks.TIN_CRAFTER);
                     }).build());
 
     public static void register(IEventBus eventBus) {

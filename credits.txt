@@ -2,6 +2,3 @@ Some textures in this project are modified from Mekanism by Aidan C. Brady.
 Mekanism is licensed under the MIT License (Copyright © 2017–2025 Aidan C. Brady).
 See: https://github.com/mekanism/Mekanism
 
-Some code in API are from cucumber library by BlakeBr0
-Cucumber library is licensed under the MIT license
-see: https://github.com/BlakeBr0/Cucumber/

@@ -17,7 +17,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(RecipeOutput recipeOutput) {
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.TIN_INGOT)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.TIN_INGOT, 9)
                 .requires(ModBlocks.TIN_BLOCK)
                 .unlockedBy("has_tin_block", has(ModBlocks.TIN_BLOCK))
                 .save(recipeOutput, "tin_block_to_tin_ingot");

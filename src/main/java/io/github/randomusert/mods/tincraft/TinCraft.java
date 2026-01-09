@@ -36,7 +36,7 @@ public class TinCraft {
 
         ITEMS.register(modEventBus);
 
-        ModBlockEntities.BLOCK_ENTITIES.register(modEventBus);
+        //ModBlockEntities.BLOCK_ENTITIES.register(modEventBus);
         TincraftCreativeModeTabs.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);

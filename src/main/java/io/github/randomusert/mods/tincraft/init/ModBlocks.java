@@ -2,7 +2,7 @@ package io.github.randomusert.mods.tincraft.init;
 
 
 import io.github.randomusert.mods.tincraft.TinCraft;
-import io.github.randomusert.mods.tincraft.block.custom.TinCrafterBlock;
+//import io.github.randomusert.mods.tincraft.block.custom.TinCrafterBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
@@ -31,9 +31,10 @@ public class ModBlocks {
                     .explosionResistance(0.1f)
                     .requiresCorrectToolForDrops()));
 
-
+        /*
     public static final DeferredBlock<Block> TIN_CRAFTER = BLOCKS.register("tin_crafter",
-            () -> new TinCrafterBlock(BlockBehaviour.Properties.of().noOcclusion()));
+            () -> new TinCrafterBlock(BlockBehaviour.Properties.of().noOcclusion()
+            ));*/
 
 
 }

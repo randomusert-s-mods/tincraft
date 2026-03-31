@@ -8,6 +8,13 @@ A rewritten version, Tincraft 2, is in development and will be built on TinCore 
 
 You can still download the legacy version, but no further updates will be made.
 
+# Lessons Learned
+From my very first basic mods to Tincraft and now Tincraft 2, I’ve learned a lot about Java, Gradle, and mod development in general.
+
+Working on mods has been a great way to learn by doing—seeing instant results in-game keeps things motivating, and handling real-world problems (like dependencies, APIs, and architecture decisions) has taught me more than tutorials ever could.
+
+Even though Tincraft is now discontinued, it marks a milestone in my growth as a developer. Every line of code, bug fix, and design decision has contributed to making Tincraft 2 and my library TinCore possible.
+
 # TinCraft
 Welcome to TinCraft a mod about automation and crafting.
 
